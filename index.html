@@ -1,97 +1,107 @@
-* {box-sizing: border-box;}
+<!--HTML & CSS TIM-C32-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tim-C32</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content-1.css">
+    <link rel="stylesheet" href="css/content-2.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Unduh Font Awesome dibawah -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    
+	<!-- Ketik code header Anda dibawah -->
+	<header>
+	  <div class="container">
+		<div class="header-left">
+			 <h1>TEAM C32</h1>
+		</div>
+		<div class="header-right">
+		  <a href="#" class="login">LOGIN</a>
+		</div>
+	  </div>
+	</header>
+	<div class="top-wrapper">
+	  <img class="logo" src="https://cdn.pixabay.com/photo/2019/10/15/12/04/office-4551450_960_720.jpg">
+	  <div class="container">
+		<h2>MARI SEMANGAT BELAJAR</h2>
+		<h2>TERUS BERLATIH DAN</h2>
+		<h2>TERUS MENCOBA</h2>
+		<p>Tidak ada kejayaan dalam latihan tapi tidak ada kejayaan tanpa latihan</p>
+	  </div>
 
-html, body, a, div  {margin: 0; padding: 0;}
-
-h1 {margin:15px; color: white;}
-
-body {font-family: "Calibri";}
-
-a {text-decoration: none;}
-
-.clear {
-  clear: left;
-}
-
-header {height: 65px; width: 100%; background-color: purple;
-		position: fixed; top: 0; z-index: 10;}
-
-.header-left {
-  float: left;
-}
-
-.header-right { margin-right : 20px;  
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-}
-
-.top-wrapper {
-  padding: 80px 0 85px 0;
-  background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_960_720.jpg);
-  background-size: cover;
-  color: black;
-  text-align: left;
-}
-
-.container {
-  width: 80%;
-  margin: 0 10%;
-}
-
-.top-wrapper h2 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-  margin-top:10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-.logo {
-  width: 400px; float :right ; margin: 25px 100px;
-}
-/* Untuk Tablet*/
-@media all and (max-width: 1000px) {
-  .top-wrapper h1 {font-size: 32px;}
-  .logo {
-    width: 400px;
-    float: none;
-    margin: 25px auto;
-    display: block;
-}
-.top-wrapper h2 {
-    opacity: 0.7;
-    font-size: 40px;
-    letter-spacing: 0px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: center;
-}
-.top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
-    text-align: center;
-}
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) 
- {.header-right {display: none;}
-  .top-wrapper {text-align: left;}            
-  .top-wrapper h1 {font-size: 24px; line-height: 36px;}
-  .top-wrapper p {font-size: 14px; line-height: 20px;}
- }
+	</div>
+		
+	 
+    <div class="content1">
+      
+		<!-- Ketik code content1 Anda dibawah -->
+		<div class="container">
+			<h3 class="section-title">Pelajaran</h3>
+			<div class="wraper-content1">
+				<div class="contents-item"> 
+					<div class="item-wraper"> 
+						<img src="img/bg-pel-1.png">
+						<p>HTML &amp; CSS</p>
+					</div>
+					<p>
+					Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. 
+					</p>
+				</div>
+				<div class="contents-item"> 
+					<div class="item-wraper"> 
+						<img src="img/bg-pel2.png">
+						<p>JavaScript</p>
+					</div>
+					<p>Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
+				</div>
+				<div class="contents-item">
+					<div class="item-wraper"> 			
+						<img src="img/bg-pel-3.png">
+						<p>Ruby</p>
+					</div>
+					<p>Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+				</div>
+				<div class="contents-item"> 
+					<div class="item-wraper"> 
+						<img src="img/bg-pel4.png">
+						<p>Swift</p>
+					</div>
+					<p>Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content2">
+      <div class="wraper-content2">
+		<!-- Ketik code content2 Anda dibawah -->
+		
+	  </div>
+	</div>
+	<div class="footer">
+      <div class="footer-content">
+		<!-- Ketik code footer Anda dibawah -->
+		<div class="container">
+		<div class="contact-form">
+			<h3 class="section-title">Hubungi Kami</h3>
+			<p>Email (wajib diisi)</p>
+			<input>
+			<p>Pesan (Wajib diisi)</p>
+			<textarea></textarea>
+			<p>* Bidang wajib diisi</p>
+			<input class="btn btn-one" type="submit" value="Kirim"> 
+		</div>
+		<footer>
+		<div class="header-left">
+			 <h1>TEAM C32</h1>
+		</div>
+		</footer>
+	  </div>
+	  </div>
+	</div>
+  </body>
+</html>
