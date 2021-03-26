@@ -1,1 +1,15 @@
 
+.footer{background-color: #B4B1F2;
+padding-top: 20px;
+margin-top: 20px;box-shadow: 0px 70px #3F3D56;}
+.contact-form{text-align:center;padding-bottom: 30px;}
+input,
+textarea{width:300px;line-height:24px;}
+.btn{background-color: #0d43c4;
+border: 1px solid blue;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+padding: 5px 20px;
+box-shadow: 0px 5px #0c0653;}
+.btn:hover{box-shadow:none; margin-top:5px;}
