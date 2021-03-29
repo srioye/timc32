@@ -76,7 +76,7 @@ header {height: 65px; width: 100%; background-color: purple;
 }
 .top-wrapper h2 {
     opacity: 0.7;
-    font-size: 40px;
+    font-size: 26px;
     letter-spacing: 0px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -93,7 +93,8 @@ header {height: 65px; width: 100%; background-color: purple;
 @media all and (max-width: 670px) 
  {.header-right {display: none;}
   .top-wrapper {text-align: left;}            
-  .top-wrapper h1 {font-size: 24px; line-height: 36px;}
+  .top-wrapper h1 {font-size: 26px; line-height: 36px;}
+	 .top-wrapper h2 {font-size: 26px; }
   .top-wrapper p {font-size: 14px; line-height: 20px;}
 	 .logo {
     margin: 25px auto 15px;
